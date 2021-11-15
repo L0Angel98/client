@@ -1,5 +1,51 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 3em;
+  gap: 2em;
+  width: 100%;
+}
+
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+  max-width: 300px;
+  width: 100%;
+  border: 1px solid #61dafb;
+  padding: 2rem;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.formContainer > label {
+  display: flex;
+  flex-direction: column;
+}
+
+.savedNotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 1em;
+  border: 1px solid #61dafb;
+  padding: 1em;
+  box-sizing: border-box;
+  max-width: 200px;
+  width: 100%;
+  margin: 1em 1em;
+}
+div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.savedNotes > div {
+  text-align: left;
 }
 
 .App-logo {
